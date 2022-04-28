@@ -9,7 +9,7 @@ const Home = () => (
       <link rel="icon" href="/pizza.png" />
     </Head>
     <main className="flex flex-col px-8 pt-4 text-center">
-      <h1 className="text-3xl text-red-400 mb-8">
+      <h1 className="text-3xl text-red-400 mb-8 uppercase">
         <span className="text-4xl">Hang's </span>Italian Kitchen
       </h1>
       <Menu />
