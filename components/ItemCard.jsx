@@ -14,7 +14,7 @@ const ItemCard = ({ item }) => (
           />
         ) : null}
       </div>
-      <p className="1/2">{item.description}</p>
+      <p className="w-3/4 mx-auto">{item.description}</p>
     </div>
   </div>
 );

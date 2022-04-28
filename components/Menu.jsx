@@ -28,8 +28,11 @@ const Menu = () => {
             title={'spicy'}
             className="h-8 w-8"
           />
-          <button className="ml-1 focus:outline-none" onClick={onSpicyClick}>
-            {spicy === true ? <CheckIcon /> : <CrossIcon />}
+          <span className="text-red-500">*</span>
+          <button
+            className="ml-1 focus:outline-none w-6 h-6 border border-red-400 "
+            onClick={onSpicyClick}>
+            {spicy === true ? <CheckIcon /> : null}
           </button>
         </div>
       </div>
