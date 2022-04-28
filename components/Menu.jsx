@@ -32,7 +32,7 @@ const Menu = () => {
           <button
             className="ml-1 focus:outline-none w-6 h-6 border border-red-400 "
             onClick={onSpicyClick}>
-            {spicy === true ? <CheckIcon /> : null}
+            {spicy === true && <CheckIcon />}
           </button>
         </div>
       </div>
