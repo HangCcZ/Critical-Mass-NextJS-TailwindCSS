@@ -1,5 +1,13 @@
 # This website is built with Next.JS and TailwindCSS [Check here to see live version](https://critical-mass-next-js-tailwind-css.vercel.app/)
 
+# How to run:
+
+- Make sure you have lastest Node.js [LTS](https://nodejs.org/en/download/) installed
+- Clone this project
+- Run `npm install`
+- Run `npm run dev`
+- Enjoy!
+
 # 2022 Internship Menu Exercise
 
 Tackle the following steps to create a menu for a "Fancy Italian Restaurant".
