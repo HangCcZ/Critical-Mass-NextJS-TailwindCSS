@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 w-3/4 mx-auto">
       <div className="flex justify-center mb-4">
         <img
           src={`./spicy.svg`}
